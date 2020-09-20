@@ -14,7 +14,7 @@ function createWindow () {
     }
   })
   mainWindow.loadFile('./windows/index.html')
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 }
 
 app.whenReady().then(() => {
