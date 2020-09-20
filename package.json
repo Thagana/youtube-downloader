@@ -1,0 +1,18 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Thagana/tube-cmd.git",
+  "author": "Thagana <samuelmthwa79@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.2"
+  },
+  "scripts": {
+    "dev": "electron ."
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0",
+    "youtube-dl": "^3.0.2"
+  }
+}
