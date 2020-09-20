@@ -28,7 +28,7 @@ body{
 
 .header-text{
     color: #ffffff;
-    padding: 10px;
+    padding: 5px;
 }
 
 .input-conatiner{
@@ -37,9 +37,9 @@ body{
 
 .url-input{
     width: 500px;
-    border: 2px #09163a solid;
     padding: 10px;
-    color: #061d5f
+    color: #061d5f;
+    border: 1px solid #ffffff;
 }
 
 .download-button{
@@ -48,6 +48,7 @@ body{
     padding-top: 6px;
     padding-bottom: 6px;
     color: #000000;
+    border: 1px solid #ffffff;
     border-radius: 1px;
 }
 
@@ -57,6 +58,7 @@ body{
     padding-top: 6px;
     padding-bottom: 6px;
     color: #000000;
+    border: 1px solid #ffffff;
     border-radius: 1px;
 }
 
@@ -96,4 +98,8 @@ span.description{
     padding: 10px;
     margin: 10px;
     color: #ffffff;
+}
+.info-path{
+    color: #ffffff;
+    margin-top: 10px;
 }

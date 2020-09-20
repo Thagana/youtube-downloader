@@ -10,21 +10,20 @@
 </head>
 <body>
     <div class="conatiner">
+        <div>
+            <img src="../assets/icons/icon.png" width="90" height="90"/>
+        </div>
         <div class="header">
             <div></div>
             <div>
                 <h2 class="header-text">Download YouTube Videos</h2>
             </div>
             <div>
-                <a href="#" class="settings">
-                    <i class="fas fa-cog"></i>
-                </a>
             </div>
         </div>
         <div class="input-conatiner">
             <input class="url-input" 
-                placeholder="https://www.youtube.com/watch?v=KJ-o0SUpSwo&ab_channel=Shuusui"
-                value="https://www.youtube.com/watch?v=c0ruHxX7r3M&ab_channel=Falende.Tv"
+                placeholder="e.g https://www.youtube.com/watch?v=KJ-o0SUpSwo&ab_channel=Shuusui"
                 />
         </div>
         <div class="button-conatiner">
@@ -32,16 +31,19 @@
                 <button class="setpath-button">
                     Set Path
                 </button>
-            <button class="download-button">
-                Download
-            </button>
+                <button class="download-button">
+                    Download
+                </button>
+            </div>
         </div>
-    </div>
+            <div>
+                <span class="info-path"></span>
+            </div>
             <div class="info-conatiner">
                 <div class="panel">
                 </div>
             </div>
-    <script src="../utils/render.js"></script>
+    <script src="../utils/pathFinder.js"></script>
     <script src="../utils/downloadVideo.js"></script>
 </body>
 </html>

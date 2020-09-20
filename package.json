@@ -6,7 +6,8 @@
   "author": "Thagana <samuelmthwa79@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^10.1.2"
+    "electron": "^10.1.2",
+    "electron-packager": "^15.1.0"
   },
   "scripts": {
     "dev": "electron ."
