@@ -1,0 +1,99 @@
+body{
+    font-family: 'Share Tech Mono', monospace;
+    background-color: teal;
+}
+
+.conatiner{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner .header{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fa-cog{
+    font-size: 26px;
+}
+
+.settings{
+    color: #ffffff;
+}
+
+.header-text{
+    color: #ffffff;
+    padding: 10px;
+}
+
+.input-conatiner{
+    padding: 20px;
+}
+
+.url-input{
+    width: 500px;
+    border: 2px #09163a solid;
+    padding: 10px;
+    color: #061d5f
+}
+
+.download-button{
+    background-color: #ffffff;
+    width: 200px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #000000;
+    border-radius: 1px;
+}
+
+.setpath-button{
+    background-color: #ffffff;
+    width: 200px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #000000;
+    border-radius: 1px;
+}
+
+.download-button:hover{
+    cursor: pointer;
+}
+
+.info-conatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thumb{
+    width: 600px;
+    height: 500px;
+}
+div.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container{
+    padding: 4px;
+    margin: 10px;
+}
+
+span.description{
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+}
